@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Валерия Киселева](https://up.htmlacademy.ru/htmlcss-individual/1/user/2460349).
-* Наставник: `Неизвестно`.
+* Наставник: [Артем Картавый](https://htmlacademy.ru/profile/artem_k)
 
 ---
 
