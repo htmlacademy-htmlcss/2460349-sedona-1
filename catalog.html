@@ -54,113 +54,115 @@
     </header>
 
     <main class="main-inner">
-      <header class="inner-header">
-        <h1 class="inner-header-title">Гостиницы Седоны</h1>
-        <ol class="breadcrumbs">
-          <li class="breadcrumbs-item">
-            <a class="breadcrumbs-item-link" href="index.html"
-              ><span class="visually-hidden">Главная</span></a
-            >
-          </li>
-          <li class="breadcrumbs-item">
-            <a class="breadcrumbs-item-link">Гостиницы</a>
-          </li>
-        </ol>
-      </header>
+      <div class="hotel-search-image">
+        <header class="inner-header">
+          <h1 class="inner-header-title">Гостиницы Седоны</h1>
+          <ol class="breadcrumbs">
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-item-link" href="index.html"
+                ><span class="visually-hidden">Главная</span></a
+              >
+            </li>
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-item-link">Гостиницы</a>
+            </li>
+          </ol>
+        </header>
 
-      <section class="catalog-product">
-        <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
-        <form
-          class="catalog-filter"
-          action="http://echo.htmlacademy.ru"
-          method="get"
-        >
-          <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Инфраструктура</legend>
-            <ul class="catalog-filter-list">
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input
-                    class="control-input"
-                    type="checkbox"
-                    value="pool"
-                    name="infrastructure"
-                  />
-                  Бассейн
-                </label>
-              </li>
+        <section class="catalog-product">
+          <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
+          <form
+            class="catalog-filter"
+            action="http://echo.htmlacademy.ru"
+            method="get"
+          >
+            <fieldset class="catalog-filter-group">
+              <legend class="catalog-filter-title">Инфраструктура</legend>
+              <ul class="catalog-filter-list">
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input
+                      class="control-input"
+                      type="checkbox"
+                      value="pool"
+                      name="infrastructure"
+                    />
+                    Бассейн
+                  </label>
+                </li>
 
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input
-                    class="control-input"
-                    type="checkbox"
-                    value="parking"
-                    name="infrastructure"
-                  />
-                  Парковка
-                </label>
-              </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input
+                      class="control-input"
+                      type="checkbox"
+                      value="parking"
+                      name="infrastructure"
+                    />
+                    Парковка
+                  </label>
+                </li>
 
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input
-                    class="control-input"
-                    type="checkbox"
-                    value="Wi-Fi"
-                    name="infrastructure"
-                  />
-                  Wi-Fi
-                </label>
-              </li>
-            </ul>
-          </fieldset>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input
+                      class="control-input"
+                      type="checkbox"
+                      value="Wi-Fi"
+                      name="infrastructure"
+                    />
+                    Wi-Fi
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
 
-          <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Тип жилья</legend>
-            <ul class="catalog-filter-list">
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input
-                    class="control-input"
-                    type="radio"
-                    value="hotel"
-                    name="type-house"
-                  />
-                  Гостиница
-                </label>
-              </li>
+            <fieldset class="catalog-filter-group">
+              <legend class="catalog-filter-title">Тип жилья</legend>
+              <ul class="catalog-filter-list">
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input
+                      class="control-input"
+                      type="radio"
+                      value="hotel"
+                      name="type-house"
+                    />
+                    Гостиница
+                  </label>
+                </li>
 
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input
-                    class="control-input"
-                    type="radio"
-                    value="motel"
-                    name="type-house"
-                  />
-                  Мотель
-                </label>
-              </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input
+                      class="control-input"
+                      type="radio"
+                      value="motel"
+                      name="type-house"
+                    />
+                    Мотель
+                  </label>
+                </li>
 
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input
-                    class="control-input"
-                    type="radio"
-                    value="apartments"
-                    name="type-house"
-                  />
-                  Апартаменты
-                </label>
-              </li>
-            </ul>
-          </fieldset>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input
+                      class="control-input"
+                      type="radio"
+                      value="apartments"
+                      name="type-house"
+                    />
+                    Апартаменты
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
 
-          <button class="button" type="submit">Применить</button>
-          <button class="button" type="reset">Сбросить</button>
-        </form>
-      </section>
+            <button class="button button-apply" type="submit">Применить</button>
+            <button class="button button-drop" type="reset">Сбросить</button>
+          </form>
+        </section>
+      </div>
 
       <section class="sorting hotel-catalog">
         <h2 class="visually-hidden">Каталог</h2>
@@ -205,8 +207,8 @@
             </a>
             <span class="hotel-type">Гостиница</span>
             <span class="hotel-price">От 4000</span>
-            <a class="button" href="#">подробнее</a>
-            <button type="button">в избранное</button>
+            <a class="button button-detail" href="#">подробнее</a>
+            <button type="button button-favourites">в избранное</button>
             <p class="visually-hidden">четырехзвездочная гостиница</p>
             <p class="hotel-rating">Рейтинг 8,5</p>
           </li>
@@ -224,8 +226,8 @@
             </a>
             <span class="hotel-type">Гостиница</span>
             <span class="hotel-price">От 5000</span>
-            <a class="button" href="#">подробнее</a>
-            <button type="button">в избранном</button>
+            <a class="button button-detail" href="#">подробнее</a>
+            <button type="button button-favourites">в избранном</button>
             <p class="visually-hidden">четырехзвездочная гостиница</p>
             <p class="hotel-rating">Рейтинг 9,2</p>
           </li>
@@ -243,8 +245,8 @@
             </a>
             <span class="hotel-type">Гостиница</span>
             <span class="hotel-price">От 2500</span>
-            <a class="button" href="#">подробнее</a>
-            <button type="button">в избранное</button>
+            <a class="button button-detail" href="#">подробнее</a>
+            <button type="button button-favourites">в избранное</button>
             <p class="visually-hidden">трехзвездочная гостиница</p>
             <p class="hotel-rating">Рейтинг 6,9</p>
           </li>
@@ -262,8 +264,8 @@
             </a>
             <span class="hotel-type">Гостиница</span>
             <span class="hotel-price">От 1500</span>
-            <a class="button" href="#">подробнее</a>
-            <button type="button">в избранное</button>
+            <a class="button button-detail" href="#">подробнее</a>
+            <button type="button button-favourites">в избранное</button>
             <p class="visually-hidden">двухзвездочная гостиница</p>
             <p class="hotel-rating">Рейтинг 5,0</p>
           </li>
@@ -284,7 +286,7 @@
             <a class="pagination-link" href="#">4</a>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link" href="#">...</a>
+            <a class="pagination-link pagination-link-other" href="#">...</a>
             <!--ссылка на остальные страницы-->
           </li>
           <li class="pagination-item">
@@ -293,7 +295,7 @@
         </ol>
       </section>
 
-      <section class="mailing">
+      <section class="mailing mailing-catalog">
         <h2>Подпишитесь на рассылку</h2>
         <p>
           Только полезная информация и никакого спама, честное бойскаутское!

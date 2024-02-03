@@ -147,6 +147,12 @@ body {
     text-align: center;
 }
 
+.mailing-catalog {
+    background-image: none;
+    color:#000000;
+    background-color: #FFFFFF;
+}
+
 .title-mailing {
     font-size: 30px;
     font-weight: 700;
@@ -188,4 +194,131 @@ body {
     text-align: center;
     text-decoration: none;
     color: #000000;
+}
+
+.inner-header,
+.catalog-product {
+    color:#FFFFFF;
+    background-color: #82B3D3;
+}
+
+.inner-header-title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 78px;
+}
+
+.breadcrumbs-item {
+    font-size: 16px;
+}
+
+.catalog-filter-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.catalog-filter-item {
+    line-height: 23px;
+}
+
+.hotel-search-image{
+    background-image: none;
+    background-color: #82B3D3;
+}
+
+.button-apply,
+.button-drop {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button-apply {
+    background-color: #82B3D3;
+    border-radius: 4px;
+    padding: 8px 50px;
+}
+
+.sorting-text {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.hotel-card-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #000000;
+
+}
+
+.hotel-list,
+.catalog-filter-list {
+    list-style: none;
+}
+
+.hotel-card-link{
+    text-decoration: none;
+}
+
+.button-detail {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #756157;
+    padding: 8px 50px;
+    border-radius: 4px;
+
+}
+
+.button-favourites {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #82B3D3;
+    padding: 8px 50px;
+    border-radius: 4px;
+}
+
+.hotel-rating {
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.pagination {
+    list-style: none;
+}
+
+.pagination-link {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #82B3D3;
+}
+
+.pagination-link-other {
+    color:#000000;
+    background-color:#FFFFFF;
+    text-transform: none;
+}
+
+.pagination-current {
+    color: #000000;
+    background-color: #F2F2F2;
 }
