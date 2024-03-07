@@ -8,60 +8,16 @@
 
   <body>
     <div class="page-container">
-      <!-- <header class="page-header">
-        <a href="index.html">
-          <img
-            class="logo"
-            src="images/logo-sedona.svg"
-            width="138"
-            height="64"
-            alt="Логотип Sedona"
-          />
-        </a>
-
-        <nav class="navigation">
-          <ul class="navigation-list">
-            <li class="navigation-item">
-              <a class="navigation-link" href="index.html">Главная</a>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="#">О седоне</a>
-            </li>
-            <li class="navigation-item">
-              <a
-                class="navigation-link navigation-link-current"
-                href="catalog.html"
-                >Гостиницы</a
-              >
-            </li>
-          </ul>
-
-          <ul class="navigation-list navigation-user">
-            <li class="navigation-item">
-              <a class="navigation-link" href="#"
-                ><span class="visually-hidden">Поиск</span></a
-              >
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="#"
-                ><span class="visually-hidden">Избранное</span></a
-              >
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="catalog.html">Хочу сюда!</a>
-            </li>
-          </ul>
-        </nav>
-      </header> -->
 
       <header class="page-header">
+
         <nav class="navigation">
           <a>
             <img
               class="logo"
               src="images/logo-sedona.svg"
               width="138"
-              height="64"
+              height="70"
               alt="Логотип Sedona"
             />
           </a>
@@ -79,12 +35,12 @@
 
           <ul class="navigation-list navigation-user">
             <li class="navigation-item">
-              <a class="navigation-link" href="#"
+              <a class="navigation-link navigation-link-search" href="#"
                 ><span class="visually-hidden">Поиск</span></a
               >
             </li>
             <li class="navigation-item">
-              <a class="navigation-link" href="#"
+              <a class="navigation-link navigation-link-like" href="#"
                 ><span class="visually-hidden">Избранное</span></a
               >
             </li>
@@ -120,7 +76,7 @@
               method="get"
             >
               <fieldset class="catalog-filter-group">
-                <legend class="catalog-filter-title">Инфраструктура</legend>
+                <legend class="catalog-filter-title">Инфраструктура:</legend>
                 <ul class="catalog-filter-list">
                   <li class="catalog-filter-item">
                     <label class="control">
@@ -161,7 +117,7 @@
               </fieldset>
 
               <fieldset class="catalog-filter-group">
-                <legend class="catalog-filter-title">Тип жилья</legend>
+                <legend class="catalog-filter-title">Тип жилья:</legend>
                 <ul class="catalog-filter-list">
                   <li class="catalog-filter-item">
                     <label class="control">
@@ -200,20 +156,26 @@
                   </li>
                 </ul>
               </fieldset>
-
-              <button class="button button-apply" type="submit">Применить</button>
-              <button class="button button-drop" type="reset">Сбросить</button>
+              <fieldset class="catalog-filter-group">
+                <legend class="catalog-filter-title">Стоимость, ₽:</legend>
+                <label class="catalog-filter-label"> от<input placeholder="0" type="number" class="price"></label>
+                <label class="catalog-filter-label"> до<input placeholder="9000" type="number" class="price"></label>
+              </fieldset>
+              <div class="button-catalog">
+                <button class="button button-apply" type="submit">Применить</button>
+                <button class="button button-drop" type="reset">Сбросить</button>
+              </div>
             </form>
           </section>
         </div>
 
-        <section class="sorting hotel-catalog">
+        <section class="sorting-hotel-catalog">
 
 
           <h2 class="visually-hidden">Каталог</h2>
 
           <div class="sorting-header">
-            <b class="sorting-text">Найдено гостиниц:38</b>
+            <b class="sorting-text">Найдено гостиниц: 38</b>
             <select class="select-control" aria-label="Сортировка">
               <option value="cheap cheap-current">Сначала дешевые</option>
               <option value="popular">Сначала популярные</option>
@@ -405,22 +367,22 @@
           <h2 class="visually-hidden">Социальные сети</h2>
           <ul class="footer-social-list">
             <li class="footer-social-item">
-              <a class="footer-icon" href="https://vk.com/htmlacademy">
+              <a class="footer-icon-vk" href="https://vk.com/htmlacademy" target="_blank">
                 <span class="visually-hidden">Вконтакте</span>
               </a>
             </li>
 
             <li class="footer-social-item">
-              <a class="footer-icon" href=" https://t.me/htmlacademy">
+              <a class="footer-icon-tg" href=" https://t.me/htmlacademy"  target="_blank">
                 <span class="visually-hidden">Телеграм</span>
               </a>
             </li>
 
             <li class="footer-social-item">
               <a
-                class="footer-icon"
+                class="footer-icon-youtube"
                 href="https://www.youtube.com/user/htmlacademyru"
-              >
+                target="_blank">
                 <span class="visually-hidden">Ютуб</span>
               </a>
             </li>
