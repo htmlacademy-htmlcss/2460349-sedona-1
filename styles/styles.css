@@ -645,6 +645,7 @@ display: flex;
 
  .price {
   width: 143px;
+  font-family: inherit;
   box-sizing: border-box;
   border: none;
   padding: 12px 40px 12px 20px;
