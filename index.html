@@ -7,9 +7,206 @@
   </head>
 
   <body>
+    <div class="modal-container">
+      <div class="modal modal-auth">
+        <h2>Поиск гостиницы в Седоне</h2>
+        <form
+          class="search-form"
+          action="https://echo.htmlacademy.ru/"
+          method="post"
+        >
+          <div class="modal-wrapper">
+            <label class="choose-date">
+              <span class="label date-in">Дата заезда:</span>
+              <input type="text" name="date-in" placeholder="27 апреля 2020" />
+            </label>
+
+            <button class="calendar-button" type="button">
+              <span class="visually-hidden">Календарь</span>
+              <svg
+                width="20"
+                height="20"
+                class="calendar"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g opacity="0.3">
+                  <path
+                    d="M7.75 12C8.05 12 8.25 11.8 8.25 11.5C8.25 11.2 8.05 11 7.75 11C7.45 11 7.25 11.2 7.25 11.5C7.25 11.8 7.45 12 7.75 12Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M17 4H15V2H14V4H6V2H5V4H3C2.4 4 2 4.4 2 5V16C2 16.5 2.4 17 3 17H17C17.5 17 18 16.5 18 16V5C18 4.4 17.5 4 17 4ZM17 16H3V9H17V16ZM3 8V5H5V7H6V5H14V7H15V5H17V8H3Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M10 12C10.3 12 10.5 11.8 10.5 11.5C10.5 11.2 10.3 11 10 11C9.7 11 9.5 11.2 9.5 11.5C9.5 11.8 9.7 12 10 12Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M12.25 12C12.55 12 12.75 11.8 12.75 11.5C12.75 11.2 12.55 11 12.25 11C11.95 11 11.75 11.2 11.75 11.5C11.75 11.8 11.95 12 12.25 12Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M7.75 13C7.45 13 7.25 13.2 7.25 13.5C7.25 13.8 7.45 14 7.75 14C8.05 14 8.25 13.8 8.25 13.5C8.25 13.2 8.05 13 7.75 13Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M5.5 12C5.8 12 6 11.8 6 11.5C6 11.2 5.8 11 5.5 11C5.2 11 5 11.2 5 11.5C5 11.8 5.2 12 5.5 12Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M5.5 13C5.2 13 5 13.2 5 13.5C5 13.8 5.2 14 5.5 14C5.8 14 6 13.8 6 13.5C6 13.2 5.8 13 5.5 13Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M10 13C9.7 13 9.5 13.2 9.5 13.5C9.5 13.8 9.7 14 10 14C10.3 14 10.5 13.8 10.5 13.5C10.5 13.2 10.3 13 10 13Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M12.25 13C11.95 13 11.75 13.2 11.75 13.5C11.75 13.8 11.95 14 12.25 14C12.55 14 12.75 13.8 12.75 13.5C12.75 13.2 12.55 13 12.25 13Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M14.5 12C14.8 12 15 11.8 15 11.5C15 11.2 14.8 11 14.5 11C14.2 11 14 11.2 14 11.5C14 11.8 14.2 12 14.5 12Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M14.5 13C14.2 13 14 13.2 14 13.5C14 13.8 14.2 14 14.5 14C14.8 14 15 13.8 15 13.5C15 13.2 14.8 13 14.5 13Z"
+                    fill="black"
+                  />
+                </g>
+              </svg>
+            </button>
+            <span class="modal-error"
+              >Мы не можем отправить вас в прошлое.</span
+            >
+
+            <label class="choose-date">
+              <span class="label date-out">Дата выезда:</span>
+              <input type="text" name="date-out" placeholder="4 июля 2017" />
+            </label>
+            <span class="modal-text"
+              >На эти даты есть свободные номера. Пока есть.</span
+            >
+
+            <button class="calendar-button" type="button">
+              <span class="visually-hidden">Календарь</span>
+
+              <svg
+                width="20"
+                height="20"
+                class="calendar"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g opacity="0.3">
+                  <path
+                    d="M7.75 12C8.05 12 8.25 11.8 8.25 11.5C8.25 11.2 8.05 11 7.75 11C7.45 11 7.25 11.2 7.25 11.5C7.25 11.8 7.45 12 7.75 12Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M17 4H15V2H14V4H6V2H5V4H3C2.4 4 2 4.4 2 5V16C2 16.5 2.4 17 3 17H17C17.5 17 18 16.5 18 16V5C18 4.4 17.5 4 17 4ZM17 16H3V9H17V16ZM3 8V5H5V7H6V5H14V7H15V5H17V8H3Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M10 12C10.3 12 10.5 11.8 10.5 11.5C10.5 11.2 10.3 11 10 11C9.7 11 9.5 11.2 9.5 11.5C9.5 11.8 9.7 12 10 12Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M12.25 12C12.55 12 12.75 11.8 12.75 11.5C12.75 11.2 12.55 11 12.25 11C11.95 11 11.75 11.2 11.75 11.5C11.75 11.8 11.95 12 12.25 12Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M7.75 13C7.45 13 7.25 13.2 7.25 13.5C7.25 13.8 7.45 14 7.75 14C8.05 14 8.25 13.8 8.25 13.5C8.25 13.2 8.05 13 7.75 13Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M5.5 12C5.8 12 6 11.8 6 11.5C6 11.2 5.8 11 5.5 11C5.2 11 5 11.2 5 11.5C5 11.8 5.2 12 5.5 12Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M5.5 13C5.2 13 5 13.2 5 13.5C5 13.8 5.2 14 5.5 14C5.8 14 6 13.8 6 13.5C6 13.2 5.8 13 5.5 13Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M10 13C9.7 13 9.5 13.2 9.5 13.5C9.5 13.8 9.7 14 10 14C10.3 14 10.5 13.8 10.5 13.5C10.5 13.2 10.3 13 10 13Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M12.25 13C11.95 13 11.75 13.2 11.75 13.5C11.75 13.8 11.95 14 12.25 14C12.55 14 12.75 13.8 12.75 13.5C12.75 13.2 12.55 13 12.25 13Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M14.5 12C14.8 12 15 11.8 15 11.5C15 11.2 14.8 11 14.5 11C14.2 11 14 11.2 14 11.5C14 11.8 14.2 12 14.5 12Z"
+                    fill="black"
+                  />
+                  <path
+                    d="M14.5 13C14.2 13 14 13.2 14 13.5C14 13.8 14.2 14 14.5 14C14.8 14 15 13.8 15 13.5C15 13.2 14.8 13 14.5 13Z"
+                    fill="black"
+                  />
+                </g>
+              </svg>
+            </button>
+
+            <div class="people-count">
+              <div class="counter">
+                <label for="adults" class="label">Взрослые:</label>
+
+                <button
+                  class="counter-button counter-button-less"
+                  type="button"
+                >
+                  <span class="visually-hidden">Меньше</span>
+                </button>
+
+                <input
+                  type="number"
+                  id="adults"
+                  name="adults"
+                  min="1"
+                  value="2"
+                />
+
+                <button
+                  class="counter-button counter-button-more"
+                  type="button"
+                >
+                  <span class="visually-hidden">Больше</span>
+                </button>
+              </div>
+
+              <div class="counter">
+                <label for="kids" class="label">Дети:</label>
+
+                <button
+                  class="counter-button counter-button-less"
+                  type="button"
+                >
+                  <span class="visually-hidden">Меньше</span>
+                </button>
+
+                <input type="number" id="kids" name="kids" min="0" value="0" />
+
+                <button
+                  class="counter-button counter-button-more"
+                  type="button"
+                >
+                  <span class="visually-hidden">Больше</span>
+                </button>
+              </div>
+            </div>
+
+            <button class="search-form-button" type="submit">Найти</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
     <div class="page-container">
       <header class="page-header">
-
         <nav class="navigation">
           <a>
             <img
@@ -22,7 +219,7 @@
           </a>
           <ul class="navigation-list">
             <li class="navigation-item">
-              <a class="navigation-link" href="index.html">Главная</a>
+              <a class="navigation-link active" href="index.html">Главная</a>
             </li>
             <li class="navigation-item">
               <a class="navigation-link" href="#">О седоне</a>
@@ -67,39 +264,42 @@
         <section class="advantages">
           <h2 class="visually-hidden">Преимущества</h2>
 
-            <p class="lead">
-              Седона — небольшой городок в Аризоне,<br />
-              заслуживающий большего!
-            </p>
-            <p class="lead-text">
-              Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!
-            </p>
-
+          <p class="lead">
+            Седона — небольшой городок в Аризоне,<br />
+            заслуживающий большего!
+          </p>
+          <p class="lead-text">
+            Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!
+          </p>
 
           <div class="advantages-container">
             <div class="advantages-group">
-                <div class="advantages-item advantages-item--accent">
-                  <h3 class="advantages-title">Настоящий <br> городок</h3>
-                  <div class="advantages-divider"></div>
-                  <p class="advantages-text advantages-city">
-                    Седона — не аттракцион для туристов, там течёт своя жизнь
-                  </p>
-                </div>
+              <div class="advantages-item advantages-item--accent">
+                <h3 class="advantages-title">
+                  Настоящий <br />
+                  городок
+                </h3>
+                <div class="advantages-divider"></div>
+                <p class="advantages-text advantages-city">
+                  Седона — не аттракцион для туристов, там течёт своя жизнь
+                </p>
+              </div>
 
-                <img
-                  class="advantages-image-town"
-                  src="images/advantages/view-town-sedona.jpg"
-                  width="800"
-                  height="385"
-                  alt="Вид на городок Седона"
-                />
+              <img
+                class="advantages-image-town"
+                src="images/advantages/view-town-sedona.jpg"
+                width="800"
+                height="385"
+                alt="Вид на городок Седона"
+              />
             </div>
 
             <ul class="advantages-list">
-
-
               <li class="advantages-item advantages-item-square">
-                <h3 class="advantages-title">Небольшая <br> площадь</h3>
+                <h3 class="advantages-title">
+                  Небольшая <br />
+                  площадь
+                </h3>
                 <div class="advantages-divider advantages-divider-list"></div>
                 <p class="advantages-desc">
                   Все достопримечательности находятся очень близко
@@ -107,7 +307,10 @@
               </li>
 
               <li class="advantages-item advantages-item-road">
-                <h3 class="advantages-title">Красивая <br> дорога</h3>
+                <h3 class="advantages-title">
+                  Красивая <br />
+                  дорога
+                </h3>
                 <div class="advantages-divider advantages-divider-list"></div>
 
                 <p class="advantages-desc">
@@ -116,18 +319,19 @@
               </li>
 
               <li class="advantages-item advantages-item-tourist">
-                <h3 class="advantages-title">Мало <br> туристов</h3>
+                <h3 class="advantages-title">
+                  Мало <br />
+                  туристов
+                </h3>
                 <div class="advantages-divider advantages-divider-list"></div>
                 <p class="advantages-desc">
                   Большинство едет в Гранд Каньон и толпится там
                 </p>
               </li>
-
             </ul>
 
-
             <div class="advantages-group advantages-group-reverse">
-                <img
+              <img
                 class="advantages-image-brige"
                 src="images/advantages/bridge-devil.jpg"
                 width="800"
@@ -136,47 +340,57 @@
               />
 
               <div class="advantages-item">
-                <h3 class="advantages-title">Там есть мост дьявола</h3>
-              <div class="advantages-divider"></div>
+                <h3 class="advantages-title">
+                  Там есть<br />
+                  мост дьявола
+                </h3>
+                <div class="advantages-divider"></div>
                 <p class="advantages-text">
                   Да, по нему можно пройти! Если вы осмелитесь, разумеется
                 </p>
               </div>
             </div>
           </div>
-
-
         </section>
 
         <section class="features">
-
-            <h2 class="visually-hidden">Особенности</h2>
-            <p class="lead lead-features">Приезжайте в Седону отдохнуть<br> в комфорте и уюте!</p>
-            <p class="lead-text lead-text-features">
-              Опытный персонал и качественное обслуживание!
-            </p>
+          <h2 class="visually-hidden">Особенности</h2>
+          <p class="lead lead-features">
+            Приезжайте в Седону отдохнуть<br />
+            в комфорте и уюте!
+          </p>
+          <p class="lead-text-features">
+            Опытный персонал и качественное обслуживание!
+          </p>
 
           <ul class="features-list">
             <li class="features-item">
               <div class="home-icon"></div>
               <h3 class="features-title">Жильё</h3>
               <p class="features-desc">
-                Рекомендуем пожить в настоящем мотеле, <br> всё как в кино!
+                Рекомендуем пожить<br />
+                в настоящем мотеле, <br />
+                всё как в кино!
               </p>
             </li>
 
             <li class="features-item features-item-eat">
+              <div class="eat-icon"></div>
               <h3 class="features-title">Еда</h3>
               <p class="features-desc">
-                Всегда заказывайте топовый фирменный бургер, <br> вы не
-                разочаруетесь!
+                Всегда заказывайте<br />
+                топовый фирменный бургер, <br />
+                вы не разочаруетесь!
               </p>
             </li>
 
             <li class="features-item">
+              <div class="souvenirs-icon"></div>
               <h3 class="features-title">Сувениры</h3>
               <p class="features-desc">
-                Не только китайского, <br> но и настоящего местного <br> производства!
+                Не только китайского, <br />
+                но и настоящего местного <br />
+                производства!
               </p>
             </li>
           </ul>
@@ -184,12 +398,12 @@
 
         <section class="search-hotels">
           <h2 class="lead lead-hotels">Заинтересовались?</h2>
-          <p class=" lead-text lead-text-hotels">
-            Укажите предполагаемые даты поездки, и мы покажем вам лучшие
-            предложения гостиниц в Седоне
+          <p class="lead-text lead-text-hotels">
+            Укажите предполагаемые даты поездки,<br />
+            и мы покажем вам лучшие предложения гостиниц в Седоне
           </p>
           <a class="button button-seach-hotel" href="#"
-            >поиск гостиниц в Седоне</a
+            >поиск гостиницы в Седоне</a
           >
         </section>
 
@@ -225,13 +439,21 @@
           <h2 class="visually-hidden">Социальные сети</h2>
           <ul class="footer-social-list">
             <li class="footer-social-item">
-              <a class="footer-icon-vk" href="https://vk.com/htmlacademy" target="_blank">
+              <a
+                class="footer-icon-vk"
+                href="https://vk.com/htmlacademy"
+                target="_blank"
+              >
                 <span class="visually-hidden">Вконтакте</span>
               </a>
             </li>
 
             <li class="footer-social-item">
-              <a class="footer-icon-tg" href=" https://t.me/htmlacademy"  target="_blank">
+              <a
+                class="footer-icon-tg"
+                href=" https://t.me/htmlacademy"
+                target="_blank"
+              >
                 <span class="visually-hidden">Телеграм</span>
               </a>
             </li>
@@ -240,14 +462,15 @@
               <a
                 class="footer-icon-youtube"
                 href="https://www.youtube.com/user/htmlacademyru"
-                target="_blank">
+                target="_blank"
+              >
                 <span class="visually-hidden">Ютуб</span>
               </a>
             </li>
           </ul>
         </section>
 
-        <a class="footer-phone" href="tel:+78128121212">+7(812)812-12-12</a>
+        <a class="footer-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
 
         <a class="htmlacademy-link" href="https://htmlacademy.ru/">
           <span class="visually-hidden">HTML Academy</span>
